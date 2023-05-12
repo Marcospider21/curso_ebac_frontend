@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: #73e417;
+    border: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4c9213;
+}
+
+.success-message {
+    background-color: #73e417;
+    padding: 16px;
+    color: #fff;
+    display: none;
+    text-align: center;
+}
+
+.error-message {
+    font-size: 12px;
+    padding: 8px;
+    background-color: rgb(255, 123, 0);
+    color:  #fff;
+    margin-bottom: 8px;
+    display: none;
+}
+
+input.error {
+    color: rgb(255, 123, 0);
+    border-color: rgb(255, 123, 0);
+    outline-color: rgb(255, 123, 0);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo de variação de tempo</h1>
+        <h3>Lembre-se: ainda não podemos viajar no tempo!</h3>
+        <h3>O tempo final deve ser maior ou igual ao inicial.</h3>
+        <form id="form-time">
+            <input type="number" required id="number-a" placeholder="Tempo inicial em segundos">
+            <input type="number" required id="number-b" placeholder="Tempo final em segundos">
+            <p class="error-message">
+                O valor de tempo final deve ser maior que o valor inicial.
+            </p>
+            <button type="submit" id="btn-submit">Conferir</button>
+        </form>
+        <p class="success-message"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
