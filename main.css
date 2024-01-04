@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+}
+
+header {
+    background-color: #0E0E0E;
+    padding: 16px 0;
+    display: flex;
+    border-bottom: 6px solid #252525;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+header h1 {
+    color: #BB86FC;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+form {
+    background-color: #0E0E0E;
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+    border-bottom: 6px solid #252525;
+    margin-bottom: 8px;
+}
+
+form h2 {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+input,
+button {
+    padding: 8px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #3283D5;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#botao-cancelar {
+    background-color: #D44760;
+}
+
+ul {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+ul li {
+    max-height: 100px;
+    overflow-y: hidden;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px;
+    background-color: #BB86FC;
+    width: calc(33% - 20px); /* Considerando a margem */
+    border-radius: 8px;
+}
+
+ul li:hover {
+    transform: translateY(-2px);
+    transition: all ease .3s;
+    cursor: pointer;
+    background-color: #3283D5;
+}
+
+ul li p {
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul li:hover p {
+    color: aquamarine;
+    text-decoration: line-through;
+}
+
+.linha-atravessada {
+    color: aquamarine;
+    text-decoration: line-through;
+}
