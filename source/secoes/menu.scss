@@ -1,0 +1,15 @@
+@use '../config/variaveis';
+
+.menu {
+    display: flex;
+
+    li {
+        font-weight: bold;
+        margin-left: 24px;
+
+        a {
+            color: variaveis.$corPrincipalFonte;
+            text-decoration: none;
+        }
+    }
+}
