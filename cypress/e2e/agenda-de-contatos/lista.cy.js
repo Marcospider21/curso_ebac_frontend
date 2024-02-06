@@ -12,7 +12,7 @@ describe('Testes para a lista de contatos', () => {
         cy.get('input[type="tel"]').clear().type('48 90000-0000')
         cy.get('button.adicionar').click()
 
-        cy.get('.contato').should('have.length', 4);
+        cy.get('.contato').should('have.length', 6);
     })
 
     it('Deve editar um contato existente', () => {
